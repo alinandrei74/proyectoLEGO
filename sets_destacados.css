@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+  }
+.DESTproduct-card {
+    width: 310px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.DESTproduct-card .DESTlike {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.DESTproduct-card img {
+    width: 100%;
+    display: block;
+}
+.DESTproduct-card .DESTnew-badge {
+    background-color: #FFD700;
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 0.8em;
+    border-radius: 3px;
+}
+.DESTproduct-card .DESTproduct-info {
+    padding: 15px;
+    background: #fff;
+    position: relative;
+}
+.DESTproduct-card .DESTproduct-info h2 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+.DESTproduct-card .DESTproduct-info .DESTprice {
+    color: #888;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.DESTproduct-card button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    cursor: pointer;
+}
+.DESTcarousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+.DESTcarousel .DESTproduct-card {
+    flex: 0 0 auto;
+    margin: 20px;
+}
+
